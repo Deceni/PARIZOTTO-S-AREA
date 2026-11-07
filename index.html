@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalho Parizotto</title>
     <link rel="stylesheet" href="StyleIndex.css">
+    <script src="ScriptIndex.js"></script>
 </head>
 <body>
     <h1>Verificador de Nome</h1>
@@ -15,8 +16,9 @@
             <label for="nome">Insira seu nome:</label>
             <input type="text" name="nome" id="nome">
             <br>
-            <input type="submit" value="Confirmar">
+            <input type="button" value="Confirmar" onclick="mostraNome(nome.value)">
         </form>
     </main>
+    <p id="saida"></p>
 </body>
 </html>
